@@ -18,7 +18,7 @@ namespace :db do
   puts "Migrations for the application and all plugins using easy_migrate"
   puts "================================================================="
   if failed_plugins.size > 0
-    puts "The following plugins can not be migrated as they have the wrong style naming format..."
+    puts "The following plugins have scripts that can not be migrated as they have the wrong style naming format..."
     puts failed_plugins.join(", ")
   end
   if failed_scripts.size > 0
