@@ -1,0 +1,18 @@
+Easy Migrate
+===========
+
+Providing very simple migrations that cover both the app and all your plugins.
+
+* Works with timestamp format migrations
+* Provides db:migrate and db:down (both should also allow you to pass VERSION=...)
+* Currently does not work under Windows
+
+
+Future Features
+===============
+
+* Ability to migrate and demigrate on a per plugin/app basis
+* Windows support
+
+
+Copyright (c) 2010 Benjamin Ohana - Ebotech Consulting Ltd., released under the MIT license
